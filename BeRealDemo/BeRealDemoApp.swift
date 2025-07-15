@@ -11,7 +11,7 @@ import SwiftUI
 struct BeRealDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          StoryListView(viewModel: StoryListViewModel(repository: StoryRepository(networkService: NetworkManager())))
         }
     }
 }
