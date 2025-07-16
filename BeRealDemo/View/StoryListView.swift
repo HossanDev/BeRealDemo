@@ -98,7 +98,6 @@ struct StoryListView: View {
               .frame(width: 250, height: 250)
           }
         }
-
         if viewModel.viewState == .loadingMore {
           ProgressView()
             .frame(width: 50, height: 50)
