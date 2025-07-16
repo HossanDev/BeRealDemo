@@ -54,13 +54,6 @@ This project implements an **Instagram story-like feature** using SwiftUI, follo
   - Defines protocols (`NetworkServiceProtocol`).
   - Implements network error handling.
   - Uses dependency injection with default parameters.
-  - Example initializer:
-
-    ```swift
-    init(networkService: NetworkServiceProtocol = NetworkManager()) {
-        self.networkService = networkService
-    }
-    ```
 
 - **Repository Layer**
   - Implements repository protocols.
