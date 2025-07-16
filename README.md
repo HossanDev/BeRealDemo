@@ -148,7 +148,7 @@ This project implements an **Instagram story-like feature** using SwiftUI, follo
 
 - Story view ...
 
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-07-16 at 10 55 24" src="https://github.com/user-attachments/assets/4e59a387-7cfe-4d97-90cc-b8ac863db3db" />
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-07-16 at 13 11 29" src="https://github.com/user-attachments/assets/99823692-a4b8-4b62-b082-1f0807de99e5" />
 
 - Story view  with like and raction...
 
