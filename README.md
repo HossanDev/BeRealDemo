@@ -76,8 +76,7 @@ This project implements an **Instagram story-like feature** using SwiftUI, follo
   - Responsibilities:
     - Fetch initial stories (10 records).
     - Implement pagination by loading more stories.
-    - Manage seen/unseen status.
-    - Handle like/unlike logic.
+      
   - Publishes state for UI with defined view states:
     - `.loading`
     - `.loaded`
