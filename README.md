@@ -44,7 +44,7 @@ This project implements an **Instagram story-like feature** using SwiftUI, follo
 
 ## Architecture Overview
 
-- Follows **Clean Architecture** principles.
+- Follows **Clean Architecture with MVVM for view** principles.
 - Codebase structured into layers with clear responsibilities.
 
 ### Layers and Responsibilities
