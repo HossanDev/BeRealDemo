@@ -141,6 +141,20 @@ This project implements an **Instagram story-like feature** using SwiftUI, follo
 
 ---
 
+## Screenshot of the current Implementation.
+
+- Story List view ...
+<img width="408" height="375" alt="Screenshot 2025-07-16 at 13 08 17" src="https://github.com/user-attachments/assets/278c1943-9737-4c36-9a17-4bcb534c5695" />
+
+- Story view ...
+
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-07-16 at 10 55 24" src="https://github.com/user-attachments/assets/4e59a387-7cfe-4d97-90cc-b8ac863db3db" />
+
+- Story view  with like and raction...
+
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-07-16 at 13 09 53" src="https://github.com/user-attachments/assets/f9bb6646-645a-409f-b5d3-61b4edd1dcbb" />
+
+
 ## Improvements and Future Enhancements
 
 - Modularize network and repository layers into a **Swift Package Manager (SPM) package** for reusability across projects.
