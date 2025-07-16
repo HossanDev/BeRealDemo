@@ -23,7 +23,7 @@ struct StoryAsyncImageView: View {
           .frame(width: imageWidth, height: imageHeight)
           .clipped()
       case .failure:
-        Image(systemName: "pencil.line")
+        Image(systemName: "camera")
           .resizable()
           .aspectRatio(contentMode: .fill)
           .frame(width: imageWidth, height: imageHeight)
@@ -33,7 +33,7 @@ struct StoryAsyncImageView: View {
           .progressViewStyle(CircularProgressViewStyle(tint: .red))
           .frame(width: imageWidth, height: imageHeight)
       @unknown default:
-        Image(systemName: "pencil.line")
+        Image(systemName: "camera")
           .resizable()
           .aspectRatio(contentMode: .fill)
           .frame(width: imageWidth, height: imageHeight)

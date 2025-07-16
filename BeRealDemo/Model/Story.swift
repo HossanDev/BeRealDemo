@@ -24,7 +24,6 @@ struct Result: Codable, Hashable, Identifiable {
     let picture: Picture
 }
 
-
 // MARK: - ID
 struct ID: Codable, Hashable {
     let name: String

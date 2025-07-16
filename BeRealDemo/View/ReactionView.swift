@@ -11,7 +11,6 @@ struct ReactionView: View {
   var onReactionSelected: (String) -> Void
   private let reactions = ["❤️", "👍", "😂", "😮", "😢", "👏"]
   
-  // State for animation scale of each emoji
   @State private var scales: [CGFloat]
   
   init(onReactionSelected: @escaping (String) -> Void) {
@@ -29,7 +28,6 @@ struct ReactionView: View {
             onReactionSelected(reactions[index])
           }
           .onAppear {
-            // Wave animation with delay for each emoji
             withAnimation(
               Animation.easeInOut(duration: 0.8)
                 .repeatForever()

@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Ms",
+        "first": "Elina",
+        "last": "Pasanen"
+      },
+      "id": {
+        "name": "FI",
+        "value": "310123-123A"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/5.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/5.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/5.jpg"
+      }
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "John",
+        "last": "Doe"
+      },
+      "id": {
+        "name": "US",
+        "value": "123456789"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/10.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/10.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/10.jpg"
+      }
+    }
+  ],
+  "info": {
+    "seed": "foobar",
+    "results": 2,
+    "page": 1,
+    "version": "1.3"
+  }
+}

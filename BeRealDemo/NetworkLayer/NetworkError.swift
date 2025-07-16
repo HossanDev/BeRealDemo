@@ -7,14 +7,14 @@
 
 import Foundation
 
-public enum NetworkError: Error, LocalizedError {
+enum NetworkError: Error, LocalizedError {
   case invalidURL(String)
   case requestFailed(Error)
   case invalidResponse
   case decodingFailed(Error)
   case parsingError
   
-  public var errorDescription: String? {
+  var errorDescription: String? {
     switch self {
     case .invalidURL(let urlString):
       return "Invalid URL: \(urlString)"

@@ -91,7 +91,6 @@ struct StoryViewerView: View {
   }
   
   // MARK: - Top Section
-  
   private var topSection: some View {
     VStack(spacing: 0) {
       Spacer()
@@ -127,7 +126,6 @@ struct StoryViewerView: View {
   }
   
   // MARK: - Bottom Section
-  
   private var bottomSection: some View {
     ZStack {
       if let url = URL(string: storyList[currentIndex].picture.large) {
@@ -158,7 +156,6 @@ struct StoryViewerView: View {
   }
   
   // MARK: - Story Navigation
-  
   private func nextStory() {
     timerManager.stop()
     if currentIndex < storyList.count - 1 {
@@ -189,10 +186,5 @@ extension Notification.Name {
 }
 
 #Preview {
-  StoryViewerView(storyList: Result.sampleList, currentIndex: 0, onDismiss: {})
-}
-
-
-#Preview {
-  StoryViewerView(storyList: Result.sampleList, currentIndex: 0, onDismiss: {})
+  StoryViewerView(storyList: Result.mockStoryList, currentIndex: 0, onDismiss: {})
 }

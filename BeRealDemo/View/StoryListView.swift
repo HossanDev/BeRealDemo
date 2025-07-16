@@ -62,9 +62,8 @@ struct StoryListView: View {
   func showStoryListView() -> some View {
     ScrollView(.horizontal, showsIndicators: false) {
       HStack(spacing: 12) {
-        ForEach(viewModel.storyList.indices, id: \.self) { index in
-          let result = viewModel.storyList[index]
-
+        ForEach(viewModel.storyList.indices, id: \.self) {
+          let result = viewModel.storyList[$0]
           if let url = viewModel.imageURL(for: result) {
             StoryAsyncImageView(url: url)
               .frame(width: 100, height: 150)
